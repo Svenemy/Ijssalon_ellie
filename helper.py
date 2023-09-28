@@ -16,4 +16,9 @@ def onderstreep(tekst=""):
     uit.append ("=" * len(tekst))
     return uit
 
-print(onderstreep("tekst"))
+def som(inkomsten):
+   return sum(dict.values(inkomsten))
+
+
+
+
